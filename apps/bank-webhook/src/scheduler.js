@@ -44,6 +44,8 @@ cron.schedule('*/5 * * * *', async () => {
     }
 
     console.log('Processed all transactions successfully');
+
+    
   } catch (error) {
     console.error('Error processing transactions:', error);
   }
